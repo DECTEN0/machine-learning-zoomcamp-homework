@@ -45,7 +45,7 @@ app = FastAPI(title="churn-prediction")
 
 
 #open pipeline
-with open("04-deployment/model.bin", "rb") as f_in:
+with open("model.bin", "rb") as f_in:
     pipeline = pickle.load(f_in)
 
 
