@@ -84,4 +84,4 @@ def save_model(filename, model):
 
 df = load_data()
 pipeline = train_model(df)
-save_model("model.bin", pipeline)
+save_model("04-deployment/model.bin", pipeline)
